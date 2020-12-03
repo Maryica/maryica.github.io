@@ -216,7 +216,7 @@
     line-height: 24px;
     font-weight: 300;
     color: #8c8c8c;
-    margin-bottom: 160px;
+    margin-bottom: 90px;
 }
 .main-text:after{
     display: block;
@@ -236,6 +236,7 @@
 }
 .realization {
     background-color: #fbfaf8;
+    padding-top:70px;
 }
 .realization-header {
     text-align: center;
