@@ -1080,3 +1080,161 @@
     height: 13px;
     margin-top: -15px;
 }
+@media (min-width: 320px) and (max-width: 500px) {
+    .wrapper {
+        margin: auto;
+        width: 500px;
+   }
+   .header-logo {
+    padding-left: 30px;
+}
+   .header-nav::before {
+    position: relative;
+    display: inline-block ;
+    display: none;
+	position: absolute;
+	top: 100%;
+   }
+   .nav-items {
+    display:inherit;
+   }
+   .logo-name {
+       position: absolute;
+       top: 50px;
+   }
+   .app-main {
+    width: 100%;
+}
+   .main-text {
+    margin: auto;
+    text-align: center;
+    width: 60%;
+}
+.realization-header {
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #555555;
+    margin-bottom: 20px;
+}
+.screen {
+    display: flex;
+    flex-direction: column;
+}
+.screen-right, .screen-center,.screen-left {
+    width: 500px;
+    height: 100%;
+}
+.multipurpose-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.multipurpose-header {
+    font-size: 18px;
+}
+.multipurpose-waxom {
+    font-size: 20px;
+}
+.multipurpose-text {
+    font-size: 14px;
+}
+.multipurpose-right {
+    margin-bottom: 15px;
+}
+.button-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+.projects-button {
+    margin: 10px;
+}
+.video-header {
+    font-size: 22px;
+}
+.video-text {
+    font-size: 14px;
+}
+.devices {
+    padding-top: 0;
+}
+.devices-img {
+  opacity: 0;
+    position: absolute;  
+}
+.devices-header {
+    font-size: 22px;
+}
+.devices-desc {
+    margin: 30px;
+}
+.devices-list {
+    margin-left: 30px;
+}
+.statistics {
+    height: 100%;
+}
+.statistics-main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.statistics-icon {
+    margin: 30px auto;
+}
+.posts-header {
+    font-size: 22px;
+}
+.posts-text {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 30px;
+    width: 100%;
+}
+.posts-wrp {
+    flex-wrap: wrap;
+}
+.partners {
+    padding-top: 50px;
+}
+.partners-box {
+    padding: 50px;
+}
+.posts-main {
+    width: 100%;
+    margin: 15px 30px 15px;
+}
+.posts-main-desc {
+    margin-bottom: 0;
+}
+.footer-column {
+    flex-direction: column;
+}
+.footer-about, .footer-posts,.footer-twitter,.footer-dribbble {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+.footer-left, .footer-right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-wrp {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.nav-text {
+    padding-bottom: 20px;
+}
+.footer-name {
+    padding-bottom: 20px;
+    margin-right: 0;
+}
